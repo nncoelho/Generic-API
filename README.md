@@ -1,2 +1,2 @@
-# Generic_API
+# Generic API
 Generic API - PHP
