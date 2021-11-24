@@ -1,6 +1,5 @@
 <?php
 
-// PREPARE RESPONSE
 $data['status']  = 'ERROR';
 $data['data'] = null;
 
