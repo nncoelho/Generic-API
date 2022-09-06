@@ -16,8 +16,7 @@ for ($i = 0; $i < 10; $i++) {
 
 echo '<p>CONCLUDED</p>';
 
-function api_request($option)
-{
+function api_request($option){
     $client = curl_init(BASE_API . $option);
     curl_setopt($client, CURLOPT_RETURNTRANSFER, true);
     $response = curl_exec($client);

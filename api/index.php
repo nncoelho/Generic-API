@@ -38,16 +38,14 @@ response($data);
 
 // ========================================================
 // DEFINE RESPONSE
-function define_response(&$data, $value)
-{
+function define_response(&$data, $value){
     $data['status'] = 'SUCCESS';
     $data['data']  = $value;
 }
 
 // ========================================================
 // RESPONSE
-function response($data_response)
-{
+function response($data_response){
 
     header("Content-Type:application/json");
     echo json_encode($data_response);
